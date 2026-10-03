@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+.venv_wsl/
+venv/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Backup files
+*.bak
+
+# Dataset (downloaded separately from Kaggle)
+dataset/*
+!dataset/.gitkeep
+
+# Outputs & Logs
+outputs/
+*.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
